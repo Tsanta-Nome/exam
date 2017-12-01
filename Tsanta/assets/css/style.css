@@ -1,0 +1,182 @@
+body{
+	background-image: url(../img/nature.jpg);
+}
+#test{
+	 text-align: center;
+	 font-size: 30px;
+	 font-family: fantasy;
+	 color: white;
+}
+.text{
+	color: blue;
+	font-size: 18px;
+}
+.tt{
+	color:#90CAF9;
+	font-size: 50px;
+	border: 3px dashed;
+	border-radius: 50px ;
+	text-align: center;
+  	animation-name: zoomIn;
+  	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+.cont{
+	color: red;
+	font-size: 25px;
+}
+.ll{
+	color:green;
+	font-size: 35px
+}
+.conte
+{
+	color: blue;
+}
+.noum{
+	text-align: center;
+	color: white;
+	font-size: 50px;
+
+}
+.NN{
+	color: white;
+	font-size: 40px;
+	display: inline-flex;
+}
+#t{
+	border-radius: 15%;
+	height: 50px;
+	width: 200px;
+}
+#jj{
+	border:2px solid white;
+	height:260px;
+	width: 190px;
+
+}
+.zah{
+	font-size: 25px;
+	font-family: chiller;
+	color: green;
+}
+#rr{
+	border:2px solid white;
+	height:260px;
+	width: 320px;
+	text-align:center;
+}
+#kk{
+	border:2px solid white;
+	height:260px;
+	width: 290px;
+}
+#ff{
+	border:2px solid white;
+	height:220px;
+	width:264px;}
+div img{
+	border: 2px solid beige;
+	height:200px;
+
+
+}
+.ooo{
+		margin-left:600px;
+		height: 250px;
+		border-radius: 50%;
+}
+.leo{
+	font-family: algerian;
+	font-size: 35px;
+	color: green;
+}
+.ef{
+	font-family: cambria;
+	font-size: 40px;
+	color:#AB2DD6;
+}
+#eee{
+	display: inline-flex;
+	text-align: center;
+}
+.titrr{
+	font-size: 40px;
+	font-family: cambria;
+	color:green;
+	text-align: center;
+}
+.qq{
+	font-size: 40px;
+	font-family: cambria;
+	color: white;
+	text-align: center;
+	animation-name:hinge;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+
+}
+.merci{
+	font-family: chiller;
+	font-size: 50px;
+	color:white;
+	background-color:#2979FF;
+    width:700px;
+    margin:auto 350px; 
+}
+.qlq{
+	font-size: 40px;
+	color:pink;
+	tfont-family: cambria;
+	text-align: center;
+	animation-name: tada;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+#retu{
+	font-size: 50px;
+	text-align: center;
+	color: yellow;
+
+}
+.contenue{
+	position: right;
+	margin-left: 590px;
+	font-size: 50px;
+	color: white;
+}
+#new{
+	border:2px solid white;
+	height:260px;
+	width: 270px;
+}
+#ret{
+	color: yellow;
+	position: left;
+}
+.meme{
+	font-size: 30px;
+	color:yellow ;
+	font-family:algerian;
+}
+.ddp{
+	font-size: 25px;
+	font-family: chiller;
+	color: pink;
+}
+.zzh{
+	font-size: 20px;
+	color: white;
+	background-color:#2979FF;
+    width:516px;
+    margin:auto 425px; 
+}
+.su{
+	text-align: center;
+}
+#coo{
+	text-align: center;
+}
+.btn{
+	font-size:40px; 
+}

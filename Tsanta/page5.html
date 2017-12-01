@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>tsant</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+<div id="machine">
+<FORM NAME="Calc">
+<TABLE BORDER=4>
+<TR>
+<TD>
+<INPUT TYPE="text"   NAME="Input" Size="16">
+<br>
+</TD>
+</TR>
+<TR>
+<TD>
+<INPUT TYPE="button" NAME="one"   VALUE="  1  " OnClick="Calc.Input.value += '1'">
+<INPUT TYPE="button" NAME="two"   VALUE="  2  " OnCLick="Calc.Input.value += '2'">
+<INPUT TYPE="button" NAME="three" VALUE="  3  " OnClick="Calc.Input.value += '3'">
+<INPUT TYPE="button" NAME="plus"  VALUE="  +  " OnClick="Calc.Input.value += ' + '">
+<br>
+<INPUT TYPE="button" NAME="four"  VALUE="  4  " OnClick="Calc.Input.value += '4'">
+<INPUT TYPE="button" NAME="five"  VALUE="  5  " OnCLick="Calc.Input.value += '5'">
+<INPUT TYPE="button" NAME="six"   VALUE="  6  " OnClick="Calc.Input.value += '6'">
+<INPUT TYPE="button" NAME="minus" VALUE="  -  " OnClick="Calc.Input.value += ' - '">
+<br>
+<INPUT TYPE="button" NAME="seven" VALUE="  7  " OnClick="Calc.Input.value += '7'">
+<INPUT TYPE="button" NAME="eight" VALUE="  8  " OnCLick="Calc.Input.value += '8'">
+<INPUT TYPE="button" NAME="nine"  VALUE="  9  " OnClick="Calc.Input.value += '9'">
+<INPUT TYPE="button" NAME="times" VALUE="  x  " OnClick="Calc.Input.value += ' * '">
+<br>
+<INPUT TYPE="button" NAME="clear" VALUE="  c  " OnClick="Calc.Input.value = ''">
+<INPUT TYPE="button" NAME="zero"  VALUE="  0  " OnClick="Calc.Input.value += '0'">
+<INPUT TYPE="button" NAME="DoIt"  VALUE="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+<INPUT TYPE="button" NAME="div"   VALUE="  /  " OnClick="Calc.Input.value += ' / '">
+<br>
+</TD>
+</TR>
+</TABLE>
+</FORM>
+</div>
+<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-md-offest-3">
+				<div class="form-group">
+					<div class="radio">
+						<label><input type="radio" name="optradio" id="niv1" value="niv1">Niv1</label>
+						
+					</div>
+					<div class="radio">
+						<label><input type="radio" name="optradio" id="niv2" value="niv2">Niv2</label>
+					</div>
+
+					<div class="radio">
+						<label><input type="radio" name="optradio" id="niv3" value="niv3">Niv3</label>
+					</div>
+					
+					<input type="number" class="form-control" id="nbr" placeholder="ampidiro">
+					
+				</div>
+				<button class="btn btn-default btn-block" id="btn">tsindrio eto</button>
+				<div id="resultat"></div>
+				
+				
+			</div>
+			
+		</div>
+	</div>
+	<fieldset>
+		<legend>jouer</legend>
+		<div class="form-group">
+			<label for="tl">Entrer le nombre</label>
+			<input type="number" class="form-control" id="tl" placeholder="ny chiffrenao">
+		</div>
+	</fieldset>
+	<button class="btn btn-default btn-blok" id="ko">Test</button>    
+	
+	<script type="text/javascript" src="assets/js/app.js"></script>
+	<a href="page1.html"><div id="retu">Retour</div></a>
+	<ol class="lli">
+		<li class="a"><a href="http://www.facebook.com">
+			<img src="./assets/img/fbb.png"></a></li>
+		<li class="a"><a href="http://www.youtube.com">
+			<img src="./assets/img/yuu.jpg"></a></li>
+		<li class="a"><a href="http://www.gmail.com">
+			<img src="./assets/img/mmm.png"></a></li>
+	</ol>
+	<a href="page1.html"><div id="retu">Retour</div></a>
+ <a href="page2.html"><button class="btn btn-primary">Contact</button></a> 
+  <a href="page3.html"><button class="btn btn-primary">A propos</button></a>
+  <a href="page6.html"><button class="btn btn-primary">New</button></a>
+  <a href="page4.html"><button class="btn btn-primary">Photos</button></a>
+
+</body>
+</html>
